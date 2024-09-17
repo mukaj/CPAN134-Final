@@ -58,13 +58,12 @@ li {
 
 .project {
   margin: 20px 40px;
-
-  &:last-child {
-    text-decoration: underline dashed;
-  }
 }
 
 .project-title {
   display: inline-block;
   font-size: 20px;
+  &:last-of-type {
+    text-decoration: underline dashed;
+  }
 }
