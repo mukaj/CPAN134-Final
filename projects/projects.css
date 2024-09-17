@@ -63,3 +63,8 @@ li {
     text-decoration: underline dashed;
   }
 }
+
+.project-title {
+  display: inline-block;
+  font-size: 20px;
+}
