@@ -47,7 +47,7 @@ body {
   font-family: "Roboto";
 }
 
-p {
+.main-title {
   border-bottom: 1px solid rgb(50 50 40);
   font-size: 60px;
 }
@@ -57,6 +57,8 @@ li {
 }
 
 .project {
+  margin: 20px 40px;
+
   &:last-child {
     text-decoration: underline dashed;
   }
