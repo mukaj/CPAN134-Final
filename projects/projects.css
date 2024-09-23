@@ -53,17 +53,19 @@ body {
 }
 
 li {
-  list-style: none;
+  margin-left: 20px;
 }
 
 .project {
   margin: 20px 40px;
+  list-style: none;
 }
 
 .project-title {
   display: inline-block;
   font-size: 20px;
-  &:last-of-type {
-    text-decoration: underline dashed;
-  }
+}
+
+.project:last-of-type .project-title {
+  text-decoration: underline dashed;
 }
