@@ -50,6 +50,7 @@ body {
 .main-title {
   border-bottom: 1px solid rgb(50 50 40);
   font-size: 60px;
+  font-weight: 500;
 }
 
 li {
@@ -68,4 +69,11 @@ li {
 
 .project:last-of-type .project-title {
   text-decoration: underline dashed;
+}
+
+figure {
+  margin-left: 30px;
+  img {
+    width: 50px;
+  }
 }
