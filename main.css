@@ -27,6 +27,13 @@ body {
   font-size: 40px;
 }
 
+.quote {
+  display: flex;
+  align-items: center;
+  margin: auto 80px;
+  flex-direction: column;
+}
+
 .navbar-group {
   font-size: 40px;
   float: right;
